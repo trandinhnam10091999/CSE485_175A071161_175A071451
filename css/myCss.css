@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 100%;
+	min-height: 20px;
+	background-color: #024282;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-left{
+	position: relative;
+}
+.search{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translate(0px, -50%);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #024282;
+	
+}
+.navbar-default {
+    background-color: #024282;
+    border-color: #024282;
+}
+.header{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+	background-color: #024282;
+}
+.navbar-default .navbar-toggle{
+	background-color: #024282;
+	float: left;
+}
+.navbar-toggle{
+	margin-left: 15px;
+}
+.search {
+	color: white;
+}
+.form-search{
+	background-color:  #024282;
+}
+.navbar-brand{
+	font-size: 14px;
+}
