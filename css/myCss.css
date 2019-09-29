@@ -24,6 +24,8 @@
 	align-items: center;
 	text-decoration: none;
 	list-style: none;
+    margin-bottom: 0px;
+    height: 100%;
 	
 }
 .heading ul li{
@@ -95,7 +97,7 @@
   
 }
 .btn {
-    display: inline-block !important;
+    display: inline-block ;
     font-weight: normal;
     line-height: 1.25;
     text-align: center !important;
@@ -202,6 +204,9 @@
 	display: block ;
 	list-style: none;
 	padding-left: 20px;
+}
+.card{
+    border: 0px;
 }
 
 
@@ -331,4 +336,23 @@
 .sub-page .btn:hover{
 	background-color: #fff !important;
     color: #024282
+}
+
+@media only screen and (max-width: 1200px) {
+     .btn-gnav{
+        display: none;
+    }
+    .hotline{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+    .menu{
+        min-height: 150px;
+    }
+    .text-slide{
+        display: none;
+    }
+
 }
