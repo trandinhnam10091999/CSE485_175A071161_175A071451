@@ -7,7 +7,7 @@
     <title>Trường Đại Học Nguyễn Tất Thành</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/gioithieu.css">
+     <link rel="stylesheet" href="css/nghiencuu.css">
     
 
     <link rel="stylesheet" type="text/css" href="css/myCss.css">
