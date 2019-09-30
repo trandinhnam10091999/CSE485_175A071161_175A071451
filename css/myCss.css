@@ -134,7 +134,7 @@
 }
 .menu{
 	position: relative;
-	min-height: 400px ;
+	min-height: 20px ;
 }
 #list{
 	position: absolute ;
