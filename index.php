@@ -60,16 +60,16 @@
 							<a class="nav-link" href="gioithieu.php"><i class="fa fa-info-circle"></i><span>Giới Thiệu</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#"><i class="fa fa-graduation-cap"></i><span>Tuyển Sinh</span></a>
+							<a class="nav-link" href="tuyensinh.php"><i class="fa fa-graduation-cap"></i><span>Tuyển Sinh</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#"><i class="fa fa-book"></i><span>Đào Tạo</span></a>
+							<a class="nav-link" href="daotao.php"><i class="fa fa-book"></i><span>Đào Tạo</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#"><i class="fa fa-bookmark"></i><span>Nghiên Cứu</span></a>
+							<a class="nav-link" href="nghiencuu.php"><i class="fa fa-bookmark"></i><span>Nghiên Cứu</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#"><i class="far fa-handshake"></i></i><span>Hợp Tác Doanh Nghiệp</span></a>
+							<a class="nav-link" href="hoptacdoanhnghiep.php"><i class="far fa-handshake"></i></i><span>Hợp Tác Doanh Nghiệp</span></a>
 						</li>				
 					</ul>	
 				</div>
