@@ -25,9 +25,9 @@
 				</div>
 				<div class="col-md-5 heading ">
 					<ul>
-						<li><a href="" title="">Sinh Viên</a></li>
-						<li><a href="" title="">Giảng Viên</a></li>
-						<li><a href="" title="">Đào Tạo Quốc Tế</a></li>
+						<li><a href="Sinhvien.php" title="">Sinh Viên</a></li>
+						<li><a href="Giangvien.php" title="">Giảng Viên</a></li>
+						<li><a href="http://niie.edu.vn/vi/trang-chinh/" title="">Đào Tạo Quốc Tế</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-12 form-search">
