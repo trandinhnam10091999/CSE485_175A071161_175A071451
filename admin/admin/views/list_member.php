@@ -1,5 +1,5 @@
 <div class="table-responsive">
-	<h4>DS học viên IT-Plus</h4>
+	<h4>DS học viên </h4>
 
 	<form action="" method="POST">
 	

@@ -7,8 +7,11 @@
 		$repassWord = mysqli_real_escape_string($conn, $_POST['confirm_pass']);
 		$regexName = '/^[^\d+]*[\d+]{0}[^\d+]*$/';
 		if (!preg_match($regexName, $userName)) {
-			$error_Name = "Họ tên không hợp lệ!";
+			// $error_Name = "Họ tên không hợp lệ!";
 			$userName = "";
+			$error = 1;
+		}else{
+			$error = 0;
 		}
 		if ($passWord != $repassWord) {
 			$error_Pass="Mật khẩu không trùng khớp";
@@ -16,11 +19,24 @@
 			$repassWord = "";
 		}
 		$passW=password_hash($passWord,PASSWORD_BCRYPT);
-		$sql="INSERT into tbl_user(name,email,passw) values ('$userName','$email','$passW') ";
-		$query= mysqli_query($conn,$sql);
-		if ($query) {
-			$noti="Đăng kí thành công";
+		
+		if ($error!=1) {
+			$sql = "SELECT * FROM tbl_user where email like '%$email' ";
+			$query = mysqli_query($conn,$sql);
+			$num = mysqli_num_rows($query);
+			if($num > 0){
+				$error_Name = 'Tài khoản đã tồn tại';
+			}else{
+				$sql="INSERT into tbl_user(name,email,passw) values ('$userName','$email','$passW') ";
+				$query= mysqli_query($conn,$sql);
+				$noti="Đăng kí thành công";
+			}
+			
+		}else{
+			$error_Name = "Họ tên không hợp lệ!";
+
 		}
+
 
 
 	}

@@ -27,7 +27,7 @@
 				<div class="col-md-6 col-md-push-3">
 					<?php 
 
-						if (isset($_GET['page'])) {
+						if (isset($_GET['page'])) {  
 							$page = $_GET['page'];
 						}else{ $page = 'login'; }
 

@@ -90,7 +90,9 @@
 					}
 
 					$this->mem->del_member($id);
-					header("Location: index.php");
+					/*header("Location: index.php");*/
+					echo "<script>alert('Xóa thành công!');";
+					echo "location.href='index.php?method=list';</script>";
 					break;
 
 				default:
